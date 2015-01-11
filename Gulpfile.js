@@ -12,7 +12,7 @@ gulp.task('connect', function() {
 });
 
 gulp.task('less', function() {
-  gulp.src('less/*.less')
+  gulp.src('less/styles.less')
     .pipe(less())
     .pipe(gulp.dest('dist/css'))
     .pipe(connect.reload());
