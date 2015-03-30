@@ -10,8 +10,6 @@ var autoprefixer = require('gulp-autoprefixer');
 gulp.task('connect', function() {
   connect.server({
     root: 'project/',
-    port: 80,
-    host: '192.168.0.183',
     livereload: true
   });
 });
